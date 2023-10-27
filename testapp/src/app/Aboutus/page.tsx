@@ -7,7 +7,10 @@ import { Canvas } from "@react-three/fiber";
 import Brain from "@/components/brain";
 import Image from "next/image";
 
+
 import * as THREE from "three";
+import IconBox from "../components/IconBox";
+
 
 function AboutUs() {
   
@@ -107,7 +110,7 @@ function AboutUs() {
                 z_Scale={1.3}
                 position={new THREE.Vector3(0, 0, 0)}
               />
-              v{" "}
+              
             </Canvas>
           </div>
         </div>
@@ -119,9 +122,23 @@ function AboutUs() {
             />
           </div>
         </div>
-        <div className="font-abc">block2</div>
+         <div className="flex flex-col mt-[5%] h-[80%] w-[100%]">
+         <div className="grid grid-flow-col justify-evenly mb-[5%] ">
+          <IconBox imageUrl="/images/desktop.png" text="This is nlp box" />
+          <IconBox imageUrl="/images/aibrain.png" text="This is ai box" />
+          <IconBox imageUrl="/images/robot.png" text="This is robot box" />
+        </div>
+        <div className="grid grid-flow-col justify-evenly">
+          <IconBox imageUrl="/images/application.png" text="This is mobile box" />
+          <IconBox imageUrl="/images/machine-learning.png" text="This is ml box" />
+          
+        </div>
+                  
+          
+        </div>
       </div>
-    </div>
+      </div>
+    
   );
 }
 
