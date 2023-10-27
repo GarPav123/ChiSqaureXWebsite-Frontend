@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\pteja\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @next/font-google
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Users\pteja\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\pteja\AppData\Local\Programs\Python\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pteja\AppData\Local\Programs\Python\Python311;C:\Users\pteja\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\pteja\OneDrive\Desktop\mongo\bin\mongosh.exe;C:\ProgramData\chocolatey\bin;node_modules\npm;C:\Users\pteja\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\mongosh-1.10.5-win32-x64\bin;C:\Program Files\nodejs\;C:\Users\pteja\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2020.3.2\bin;;C:\Users\pteja\AppData\Local\Programs\Microsoft VS Code\bin;C:\python-3.11.3;C:\Program Files\Java\jdk-20\bin;C:\Users\pteja\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\pteja\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@next%2ffont-google: Not found
+      at params.callback [as _callback] (C:\Users\pteja\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\pteja\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (C:\Users\pteja\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (C:\Users\pteja\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "testapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@next/font": "^13.5.4",
+      "@react-three/drei": "^9.86.3",
+      "@react-three/fiber": "^8.14.5",
+      "next": "13.5.4",
+      "react": "^18",
+      "react-dom": "^18",
+      "three": "^0.157.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "autoprefixer": "^10",
+      "eslint": "^8",
+      "eslint-config-next": "13.5.4",
+      "postcss": "^8",
+      "tailwindcss": "^3",
+      "typescript": "^5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
